@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export function SiteFooter(){return <footer className="footer"><div className="footer-top"><div><span className="eyebrow">MURALI FORGE SYSTEMS</span><p>Business workflows, engineered to work better.</p></div><div className="footer-links"><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/cookies">Cookies</Link><Link href="/enquiry">Enquiry</Link></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Murali Forge Systems</span><span>Software · Automation · Digital Systems</span></div></footer>}

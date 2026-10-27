@@ -1,0 +1,1 @@
+export default function Loading(){return <main className="page-hero"><div className="wrap"><div className="eyebrow">MFS / Loading</div><h1 className="page-title">One moment.</h1><p>Preparing the next section.</p></div></main>}
