@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function manifest():MetadataRoute.Manifest{return {name:'Murali Forge Systems',short_name:'MFS',description:'Business workflows, engineered to work better.',start_url:'/',display:'standalone',background_color:'#f6f4ee',theme_color:'#f6f4ee',icons:[{src:'/icon.png',sizes:'any',type:'image/png'}]}}
